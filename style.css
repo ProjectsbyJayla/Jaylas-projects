@@ -1,0 +1,104 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text for readability */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #ffb6c1; /* Light pink */
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p.title {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Section Titles */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #d60036; /* Bold red */
+  border-bottom: 2px solid #d60036;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Paragraph and Lists */
+p, ul {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: #ffb6c1;
+  text-align: center;
+  color: #fff;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #d60036; /* Red for icons/links */
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff69b4; /* Hot pink on hover */
+}
+
+/* Links */
+a {
+  color: #d60036;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .social-links {
+    flex-direction: column;
