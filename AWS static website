@@ -4,12 +4,20 @@
 This document outlines the steps to host a static website using Amazon S3 and configure DNS settings with Amazon Route 53. 
 The example domain used is `projectsbyyou.click`.
 
+
 ---
 
 ## 1. Prerequisites
 - An active AWS account.
 - A registered domain name (`projectsbyyou.click`$3/yr).
 - Basic knowledge of AWS services: S3 and Route 53.
+- Linkedin and Github URLs
+- ## 🖥️ Website Files
+
+- [📄 View index.html](./index.html)
+- [🎨 View style.css](./style.css)
+- [🔐 View bucket-policy.json](./bucket-policy.json)
+
 
 ---
 
@@ -90,6 +98,8 @@ The example domain used is `projectsbyyou.click`.
 
 ### Access Denied:
 - Check the bucket policy to ensure public read access is granted.
+### Links
+- Don't forget to add your social link in the HTML file.
 
 ---
 
