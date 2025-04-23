@@ -2,7 +2,7 @@
 # IT Documentation: Hosting a Static Website on AWS S3 with Route 53
 
 ## 📄 Overview
-This document outlines the steps to host a static website using Amazon S3 and configure DNS settings with Amazon Route 53. The example domain used is `projectsbyjayla.click`.
+This document outlines the steps to host a static website using Amazon S3 and configure DNS settings with Amazon Route 53. The example domain used is `Yourprojects.click`.
 
 ---
 
@@ -36,7 +36,8 @@ This document outlines the steps to host a static website using Amazon S3 and co
 
 ### Set Bucket Policy for Public Access:
 1. Navigate to the **Permissions** tab.
-2. Click **Bucket policy** and add the following policy
+2. Click **Bucket policy** and add the following policy [View the Bucket Policy JSON](./bucket-policy.json)
+
 
 3. Save the policy.
 
