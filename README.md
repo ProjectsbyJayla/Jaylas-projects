@@ -61,7 +61,6 @@
       </ul>
     </section>
 
-    <section>
       <h2>Skills</h2>
       <ul>
         <li> Basic scripting/HTML / CSS</li>
