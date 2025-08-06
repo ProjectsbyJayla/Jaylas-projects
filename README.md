@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>NAME</h1> Jayla Johnson
+      <h1>Jayla Johnson</h1> 
       <p class="title"> IT Graduate pursuing a passion for cybersecurity and developing skills in all things Technology.</p>
       <p>Email:JaylabJohnson@gmail.com| Phone:(708)-506-0804</p>
     </header>
