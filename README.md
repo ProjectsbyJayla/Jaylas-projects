@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <!-- Font Awesome for Icons -->
@@ -91,7 +91,7 @@
       <h2>Project Resources</h2>
       <p>You can find documentation for this entire resume project here!Thank you for visiting my Resume!😃</p>
     </section>
-  </div>
+
 <footer>
   <p>Connect with me:</p>
   <ul class="social-links">
@@ -101,11 +101,10 @@
       </a>
     </li>
     <li>
-      <a href="www.linkedin.com/in/jayla-johnson-910b4824a>
-        <i class="fab fa-linkedin"></i> LinkedIn
+      <a href="www.linkedin.com/in/jayla-johnson-910b4824a">
+        <i class="fab fa-linkedin"></i>	LinkedIn
       </a>
     </li>
   </ul>
 </footer>
-</body>
-</html>
+
