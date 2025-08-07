@@ -1,0 +1,1099 @@
+ 
+ 
+Table of Contents
+EXECUTIVE SUMMARY
+COMPANY BACKGROUND
+CURRENT SITUATION ANALYSIS
+STAKEHOLDER ANALYSIS
+4. REQUIREMENTS ANALYSIS
+PROJECT OBJECTIVES
+PROJECT REQUIREMENTS
+1. Human Resources
+2. Tools & Technologies
+3. Software & Development Tools
+4. Documentation Tools
+6. Cloud Resources
+7. Security Resources
+8. External Vendors
+9. Budget and Financial Resources
+10. Communication & Collaboration Tools
+KEY STAKE HOLDERS
+Project Team Salaries (3 Months)
+Cloud & Software Costs
+Security & Compliance
+External AI Consultant (Recommended)
+Documentation & Internal IT Training
+Contingency Budget (5%)
+Hardware Cost:
+Hardware Costs (One-Time or Long-Term Replacement)
+. Existing Software and Costs
+Monthly Cloud & Software Costs
+Overall Summary
+APP Deliverables
+Summary
+AI Assistant Deployment
+Automation & Optimization Features
+Performance Analytics Dashboard
+MFA & SSO Integration
+Operational & Stakeholder Reports
+Zero Trust Architecture
+Feasibility Assessment – Phase 1
+Technical Feasibility
+Economic Feasibility
+Legal & Compliance Feasibility
+Operational Feasibility
+Schedule Feasibility
+Final Summary
+After reviewing technical readiness, financial support, legal considerations, and project scheduling, this initiative appears feasible across all key areas. Skyline IT has a solid foundation to launch the project with confidence.
+Cloud Platform and Security
+Regulatory Considerations
+Project Challenges
+Ongoing Responsibility
+Conclusion
+AI Assistant Deployment
+Automation & Optimization Features
+Performance Analytics Dashboard
+MFA & SSO Integration
+Set up 2-Step Verification inside of your workspace
+AI CONFIGURATION
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SKYLINE
+Skyline IT, founded in 2021 and headquartered in Chicago, Illinois, is a dynamic small-to-mid-sized IT consulting firm specializing in custom API servicing. Since 2022, Skyline IT has generated an impressive $1.2 million in revenue, reflecting our rapid growth and strong client demand.
+Our mission is to bridge the gap between complex technological systems and real-world business needs. We focus on delivering tailored API solutions that optimize workflows, enhance system interoperability, and support the strategic goals of our clients.
+Each API we develop is customized to integrate seamlessly with a client's unique infrastructure, offering scalable, secure, and intelligent functionality. This documentation presents the custom API workspace developed for Athenol Inc., a solution enhanced with artificial intelligence to modernize IT operations and customer support.
+This project documentation presents an overview of the custom API workspace developed for Athenol Inc. This solution leverages artificial intelligence to address key challenges in IT operations and customer support, specifically targeting inefficiencies caused by manual processes.
+ 
+ 
+Athenol inc
+ 
+EXECUTIVE SUMMARY
+ 
+Athenol Inc is a mid-sized Managed Service Provider (MSP) specializing in IT infrastructure management, cybersecurity, cloud services, and technical support for small and medium-sized businesses (SMBs). This analysis evaluates Athenol Inc's current business processes, identifies key challenges, and provides actionable recommendations to improve operational efficiency, customer satisfaction, and profitability. The report includes a detailed stakeholder analysis, problem identification, requirements analysis, and a SWOT analysis to guide strategic decision-making.
+ 
+COMPANY BACKGROUND
+  
+ Athenol Inc, founded in 2007, is a Midwest-based IT service provider with additional locations in the Northwest USA and Norway. Generating $23 million in annual revenue, the company offers services including IT infrastructure management, cybersecurity, cloud solutions, help desk support, disaster recovery, and managed VoIP. Athenol was nominated for the Tech for Global Good award in 2018. Its mission is to deliver reliable, scalable, and secure IT solutions for SMBs, while its vision is to become the leading regional MSP through exceptional service and innovation.                                                                         
+CURRENT SITUATION ANALYSIS
+Process Description
+Athenol Inc currently operates using a combination of in-house tools and third-party platforms (e.g., ConnectWise, Kaseya) to deliver managed IT services. Key processes include:
+•           Service Delivery: 24/7 technical support, proactive monitoring, and incident resolution.
+Client Onboarding: Assessment of client IT environments, customization of service plans, and implementation.
+•           Billing and Reporting: Monthly invoicing based on recurring contracts and detailed performance reports for clients.
+•           Sales and Marketing: Lead generation through referrals, digital marketing, and partnerships.
+STAKEHOLDER ANALYSIS
+ 
+Internal Stakeholders: 
+o   Leadership Team: Responsible for strategic direction and financial performance.
+o   Technical Staff: Deliver IT services and support to clients.
+o   Sales and Marketing Team: Generate leads and maintain client relationships.
+o   Administrative Staff: Handle billing, reporting, and operational support.
+External Stakeholders: 
+o          Clients: SMBs relying on Athenol Inc for IT services.
+o          Vendors: Technology providers (e.g., Google, Verizon, California based tech-startups) supplying tools and platforms.
+o          Partners: Software vendors and other MSPs for collaborative solutions.
+Problem Identification
+o   Operational Inefficiencies: Over-reliance on manual processes for ticket management and reporting.
+o   Customer Pain Points: Clients desire faster response times and more proactive support.
+o   Revenue Concentration: Dependence on a few large clients for a significant portion of revenue.
+o   Employee Turnover: High attrition rates among technical staff, leading to increased recruitment and training costs.
+ 4. REQUIREMENTS ANALYSIS
+Business Requirements
+•           Improve operational efficiency to reduce costs and enhance service delivery.
+•           Increase customer satisfaction by addressing pain points and improving service quality.
+•           Diversify revenue streams to reduce dependence on a few large clients.
+•           Enhance employee retention to maintain expertise and reduce turnover costs.
+Functional Requirements
+•           Implement AI-driven tools for automated ticket routing and resolution.
+•           Develop a client portal for real-time reporting and self-service options.
+•           Introduce predictive analytics to identify and resolve issues proactively.
+•           Standardize service packages for smaller SMBs to attract new clients.
+Non-Functional Requirements
+•           Performance: Ensure systems can handle 24/7 operations with minimal downtime.
+•           Security: Maintain robust cybersecurity measures to protect client data.
+•           Usability: Provide intuitive interfaces for both clients and internal staff.
+•           Scalability: Design solutions that can grow with the business and accommodate increasing client demands.
+ 
+PROJECT OVERVIEW
+ 
+We at Athenol Inc. (MSP - Managed Service Provider) are a medium-sized IT support as a service focused company.
+We cater towards large and small companies that look to outsource their IT needs, as such we must comply with not only our industry specific laws and regulations, but we must also incorporate laws and regulations pursuant to their industry. This being the case, our service desk analysts even with automation in place to help remediate select tickets in an optimal timeframe, our analysts generally are struggling to meet expected resolution timeframe metrics.
+They report a handful of issues that culminate in this outcome:
+•	Fine tuning alerts are a complex and time-consuming process
+•	Sifting through potentially hundreds of primary information sources (endpoint agent logs, firewall logs, cloud server logs, network nodes, our physical onsite security systems, our database queries, our IAM solution, external intelligence feeds, etc.…) takes an extended period to find relevant information for the individual ticket they are working on
+•	They lack a cohesive means to extract specific information from the data sources they may have identified for an individual ticket and must perform this process manually
+We are looking for an integrated AI tool that will support our analysts in their roles which can evolve with the industry and meets the needs for resolving the issues outlined above.
+ 
+ 
+PROJECT OBJECTIVES
+Seamless integration of 3rd party IT systems and infrastructure, not supported by Google Workspace (ticketing systems)
+•       Strengthening cybersecurity monitoring through AI analytics and threat detection.
+•       Improve customer and internal support with faster AI-assisted response times.
+•       Minimize manual workload by automating repetitive IT tasks and processes.
+PROJECT REQUIREMENTS
+1. Human Resources
+•	Project Manager: Oversees project execution, budget, timeline, and stakeholder communication.
+•	Scrum Master: Facilitates agile processes and ensures that the team is adhering to sprint timelines and achieving milestones.
+•	IT Software Engineer(s): Develops and implements the AI API integration, writes code, and ensures system compatibility with Google Workspace and third-party platforms.
+•	IT QA Engineer: Tests the integration and automation workflows to ensure that the AI solution meets quality and security standards.
+•	Chief Risk and Compliance Officer (CRCO): Ensures that the solution complies with industry regulations, security protocols, and data protection standards.
+2. Tools & Technologies
+•	Google Cloud Platform (GCP): The primary cloud service provider for hosting the integration, AI models, and API services.
+o	Services required:
+	Google Kubernetes Engine (GKE) for container orchestration and deployment.
+	Google API Gateway for API management and integration.
+	Google Cloud Storage for storing data and configuration files.
+•	Gemini AI (or AI solution provider): AI assistant integrated into Google Workspace to enhance IT operations, customer support, and security.
+•	Ticketing Systems: Integration of existing third-party ticketing systems (e.g., ServiceNow, Zendesk) with Google Workspace.
+•	Cybersecurity Platforms: Tools for monitoring and detecting cybersecurity threats (Google Chronicle).
+•	Automation Tools: For automating workflows and IT support tasks, such as custom scripts using Google Apps Script.
+3. Software & Development Tools
+•	Version Control Systems (VCS): Word
+•	Testing Frameworks: Google compute
+•	Project Management Software: Notion
+4. Documentation Tools
+•	Notion for maintaining technical documentation and project plans.
+•	Word for documenting code and API endpoints.
+•	Google one space for API documentation to ensure smooth integration and system understanding.
+•	Company Wiki for internal knowledge sharing and project tracking.
+5. Compliance and Legal Resources
+•	GDPR/Compliance Guidelines: Resources to understand and ensure GDPR compliance (e.g., GDPR.eu or legal counsel).
+•	ISO/IEC 27001 Compliance Documents: Reference documents for meeting information security management standards.
+•	Data Protection Policies: Internal and external resources for adhering to privacy policies. (Data storage, processing, and transfer.)
+•	Compliance Checklists: ensure that all regulatory and compliance standards are met throughout the development process.
+6. Cloud Resources
+•	Cloud Storage: A solution for storing large data sets or backups, (Google Cloud Storage).
+•	Cloud Computing Power: Google Cloud’s Compute Engine
+•	API Gateway Management: Tools for APIs deployed in Google Cloud (Google Cloud API Gateway).
+7. Security Resources
+•	Security Assessment Tools:
+•	Encryption Tools: Google Cloud Key Management Service (KMS).
+•	Multi-factor Authentication (MFA) Setup: Tools for implementing and ensuring multi-factor authentication
+8. External Vendors
+•	AI Solution Provider (Gemini): Vendor support for deploying and integrating the AI assistant.
+•	Google Workspace Support: Assistance from Google for integration, troubleshooting, and API usage
+•	Third-Party IT Systems (e.g., ticketing systems): ConnectWise, Kaseya
+9. Budget and Financial Resources
+•	Cloud Infrastructure Budget: Funds allocated for Google Cloud services, including compute resources, storage, and API services.
+•	Personnel Budget: Salaries for development, security, QA, and compliance personnel.
+•	Vendor Costs: Costs associated with third-party AI or software providers.
+10. Communication & Collaboration Tools
+•	SMS for daily communication and coordination within the team.
+•	Collaborate for remote meetings and stakeholder discussions.
+•	Notion for file sharing and collaboration’s
+ 
+KEY STAKE HOLDERS 
+Skyline 
+1.    Internal
+1.	IT staff, customer support teams, end-users
+2.	External
+1.	AI solution provider (Gemini), SaaS platform vendor (Google Workspace/ 3rd party systems)
+Athenol 
+Internal Stakeholders: 
+o   Leadership Team: Responsible for strategic direction and financial performance.
+o   Technical Staff: Deliver IT services and support to clients.
+o   Sales and Marketing Team: Generate leads and maintain client relationships.
+o   Administrative Staff: Handle billing, reporting, and operational support.
+External Stakeholders: 
+o          Clients: SMBs relying on Athenol Inc for IT services.
+o          Vendors: Technology providers (e.g., Google, Verizon, California based tech-startups) supplying tools and platforms.
+o          Partners: Software vendors and other MSPs for collaborative solution
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PROJECT CHARTER 
+Project Title
+1.	AI App Integration for Google Workspace
+2.	Project Manager: Jayla Johnson
+3.	Project Start and End Dates
+1.	January 31, 2025 - May 30, 2025
+5.	Project team
+1.	Project Manager: Jayla J.
+2.	Scrum Master: Issac M.
+3.	IT Software Engineer: Hasan M.
+4.	IT QA Engineer: Menchie C.
+5.	Chief Risk and Compliance Officer (CRCO): Matthew T.
+6.	Project Purpose/Justification
+To create an Advanced AI API solution for Google Workspace to enhance IT operations and customer support, optimize workflows, resources, and security protocols.
+7.	Project Objectives
+1.	Seamless integration of 3rd party IT systems and infrastructure, not supported by Google Workspace (ticketing systems)
+2.	Strengthening cybersecurity monitoring through AI analytics and threat detection.
+3.	Improve customer and internal support with faster AI-assisted response times.
+4.	Minimize manual workload by automating repetitive IT tasks and processes.
+ 
+8.	Scope (In Scope/Out of Scope)
+In scope
+1.	Integration with Google Workspace, ticketing system, and cybersecurity platforms.
+2.	Automation of IT support tasks, incident management, and administrative workflows.
+3.	AI analytics and decision-making with IT oversight.
+4.	Deployment of Gemini AI in the API play console
+5.	Configuration of Cloud Storage solutions.
+Out of scope
+6.	Non-Google workspace application
+1.	Integration with applications or systems not specified as Google Workspace, Ticketing systems, or security monitoring data.
+7.	Physical hardware/ network upgrades or replacements.
+1.	except directly required to support AI integration.
+8.	Updated Business processes workflow
+1.	Re-engineering of business workflow processes
+9.	Training for all employees
+10.	Future development of the Custom AI model
+1.	Custom development beyond the initial integration of the Gemini AI assistant.
+9.	Deliverable
+1.	AI assistant deployment and integration
+2.	Automation and optimization features
+3.	performance analytics dashboard for IT operations efficiency tracking.
+4.	Technical documentation
+5.	operational reports
+10.	Constraints:
+1.	Budget
+1.	Limited funding for cloud infrastructure, AI development, or ongoing maintenance.
+2.	Timeline
+1.	Tight deadlines for development, testing, and deployment.
+3.	Compatibility
+1.	Compatibility issues with existing systems or databases
+4.	Regulatory and Compliance
+1.	Adherence to data protection regulations, Compliance with industry-specific standards or certifications.
+5.	Data Cleaning and Migration
+1.	Cleaning or migrating existing data may be excluded.
+11.	Assumptions
+1.	Successful integration of AI assistant with Google Workspace and specified 3rd- party workspaces.
+2.	Necessary API documentation and vendor support
+3.	adequate Budget allocation for resources and poetical constraints.
+4.	Stakeholder feedback, overall cooperation
+12.	Risks
+1.	system compatibility
+2.	Limited availability of Skilled personnel
+3.	Integration constraint
+4.	Security and data privacy concerns
+5.	regulatory and complicated requirements
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Project Budget breakdown
+Project Team Salaries (3 Months)
+Role	Name	Est. Monthly Salary	Total Cost (3 Months)
+Project Manager	Jayla Johnson	$12,000	$36,000
+Scrum Master	Isaac M.	$10,000	$30,000
+IT Software Engineer	Hasan M.	$11,000	$33,000
+IT QA Engineer	Menchie C.	$9,000	$27,000
+Chief Risk and Compliance Officer	Matthew T.	$13,000	$39,000
+Subtotal (Salaries): $165,000
+ 
+Cloud & Software Costs
+Resource	Monthly Cost	Duration	Total Cost
+Gemini AI License	$3,000	3 months	$9,000
+Google Cloud Platform (GCP)	$2,500	3 months	$7,500
+Ticketing System API Licenses	$1,000	3 months	$3,000
+Cybersecurity Monitoring Tools	$2,000	3 months	$6,000
+Subtotal (Software/Cloud): $25,500
+ 
+ Security & Compliance
+Service	Type	Cost
+Risk & Compliance Assessment	One-time	$5,000
+Security Compliance Tools	Monthly ($1,000)	3 months = $3,000
+Subtotal (Security & Compliance): $8,000
+ 
+ External AI Consultant (Recommended)
+Role	Monthly Cost	Duration	Total Cost
+AI Integration Specialist	$15,000	2 months	$30,000
+Subtotal (Contractor): $30,000
+ 
+ Documentation & Internal IT Training
+Item	Description	Cost
+Internal Training Workshops	For IT staff only	$2,500
+Technical Documentation Tools	Templates and documentation utilities	$1,500
+Subtotal (Documentation & Training): $4,000
+ 
+ Contingency Budget (5%)
+•       Contingency/Buffer for unforeseen costs: $11,190
+ 
+ Total Estimated Budget Summary
+Category	Estimated Cost
+Team Salaries	$165,000
+Cloud & Software	$25,500
+Security & Compliance	$8,000
+Contractor Services	$30,000
+Documentation & Training	$4,000
+Contingency (5%)	$11,190
+TOTAL	$243,690
+Hardware Cost:
+Server Infrastructure Cost Overview
+Hardware Costs:
+Physical servers typically range from $3,000 to $20,000, depending on the brand and redundancy requirements. If your organization requires NAS or SAN storage, that could add anywhere from $1,000 to $50,000, depending on the institution's size. Additional costs for RAID controllers or high-capacity hard drives can range between $2,000 and $10,000.
+Software Licensing:
+Backup software is essential in the event of crashes or cyberattacks. Solutions like Veeam, Acronis, or Commvault can cost $500 to $5,000. The choice of operating system also affects cost—Linux is free, while Windows Server can cost up to $1,000. If you’re using hybrid backup solutions, expect monthly costs of $100 to $1,000.
+Maintenance Costs:
+Hiring IT personnel for full-time support can cost between $50,000 and $150,000 per year, depending on their experience and certifications. Additionally, energy consumption for server operation (power, cooling, etc.) can run from $50 to $500 per month, based on server size and usage.
+Security Costs:
+Firewalls and endpoint protection systems vary by brand and can cost between $500 and $5,000. Ongoing data encryption services and annual disaster recovery testing typically cost $1,000 to $10,000 per year. Security is a critical area that should never be overlooked.
+ 
+ 
+Athenol fixed cost
+ Hardware Costs (One-Time or Long-Term Replacement)
+Item	Quantity	Unit Cost	Total
+Servers	1	$10,000	$10,000
+Networking Equipment	1	$5,000	$5,000
+Workstations	50	$1,500	$75,000
+Storage (NAS)	1	$3,000	$3,000
+Total Hardware			$93,000
+
+
+ 
+. Existing Software and Costs
+Monthly Cloud & Software Costs
+Item	Monthly Cost
+Google Workspace (75 users)	$900
+Google Cloud Platform (GCP)	$5,000
+Google Chronicle	$2,000
+Fresh service	$1,000
+Connect Booster	$500
+Slack	$500
+LastPass	$300
+Total Monthly	$10,200
+Overall Summary
+ 
+Category	Amount
+Hardware (Fixed/Capex)	$93,000
+Annual Cloud & Software	$122,400
+Total Estimated Cost	$215,400/year
+ 
+ 
+
+ 
+ 
+Project Timeline
+ 
+Phase	Task Description	Duration	Assigned To	Start Date | End Date
+1.1	Project Kick-off Meeting	1 day	Project Manager	01/20/2025 | 01/20/2025
+1.2	Detailed Project Planning	5 days	Project Manager, Scrum Master	01/21/2025 | 01/27/2025
+1.3	Requirements Gathering & Analysis	5 days	Project Manager, Data Engineers	 01/28/2025 | 02/03/2025
+1.4	Define Success Metrics	2 days	Project Manager	02/04/2025 | 02/05/2025
+1.5	Set up Project Tracking Tools	2 days	Scrum Master	 01/28/2025 | 01/29/2025
+1.6	Initial Risk Assessment	3 days	CRO
+Project Manager
+Scrum master	02/04/2025 | 02/06/2025
+2.1	Identify Data Sources and APIs	 5 days	Data Engineers	02/04/2025 | 02/10/2025
+2.2	Data Source Access and Authentication Setup	5 days	Data Engineers	| 02/11/2025 | 02/17/2025
+2.3	ETL (Extract, Transform, Load)	10 days	Data Engineers	02/18/2025 | 03/03/2025
+2.4	Data Cleaning and Preprocessing	5 days	Data Engineers	03/04/2025 | 03/10/2025
+2.5	Data Storage and Management Setup	5 days	Data Engineers	03/04/2025 | 03/10/2025
+3.1	Gemini AI API Integration	 5 days	Data Engineers	03/11/2025 | 03/17/2025
+3.2	Configure AI for Alert Fine-Tuning	5 days	Data Engineers	03/18/2025 | 03/24/2025
+3.3	Configure AI for Information Extraction	5 days	Data Engineers	03/18/2025 | 03/24/2025
+3.4	Configure AI for Task Automation	5 days	Data Engineers	03/18/2025 | 03/24/2025
+3.5
+ 	Security and Compliance Configuration	5 days	Data Engineers
+CRO	03/25/2025 | 03/31/2025
+4.1	Integrate AI with Google Workspace APIs	5 days	Data Engineers	 04/01/2025 | 04/07/2025
+4.2	Integrate AI with Ticketing System APIs	5 days	Data Engineers	04/01/2025 | 04/07/2025
+4.3	Develop Performance Analytics Dashboard	5 days	Data Engineers
+CRO	04/08/2025 | 04/14/2025
+4.4	Unit Testing	5 days	Data Engineers
+CRO	04/15/2025 | 04/21/2025
+4.5	Integration Testing	5 days	Data Engineers
+CRO	04/22/2025 | 04/28/2025
+4.6	User Acceptance Testing (UAT	5 days	Data Engineers
+CRO	04/29/2025 | 05/05/2025
+4.7	Address UAT Feedback	5 days	Data Engineers
+CRO	05/06/2025 | 05/12/2025
+5.1	Production Deployment	5 days	Data Engineers	05/13/2025 | 05/19/2025
+5.2	User Training and Documentation	5 days	Data Engineers
+Project Manager
+ 
+Scrum master	| 05/20/2025 | 05/26/2025
+5.3	Post-Deployment Monitoring and Support	 	Data Engineers
+Project Manager
+ 	05/27/2025 | —
+5.4	Project Closure	 	Data Engineers
+Project Manager
+Scrum master	05/27/2025 | 05/29/2025
+ 
+ 
+USER TESTING CRITERIA 
+Criterion ID	Criterion Description	Acceptance Standard	Verification Method	Priority	Dependencies	Timeline
+AGW-101	Deploy Gemini AI to support IT operations in Google Workspace.	Gemini AI responds accurately to 90%+ of IT tickets with <3s latency.	Functional testing, UAT, performance logs	High	Gemini API, Google Workspace API	03/11–03/17/2025(3.1)
+AGW-102	Automate repetitive IT tasks and incident response workflows.	80% of defined manual tasks automated with <5% error rate.	Simulated incidents, automation workflow review	High	ITSM tool, AI config (3.4), ticketing APIs	03/18–03/24/2025(3.4)
+AGW-103	Enable real-time performance insights into AI usage and service health.	Dashboard updates within 60s of events; 99% uptime.	System monitoring, live demo, dashboard review	Medium	Analytics backend, data streams	04/08–04/14/2025(4.3)
+AGW-104	Enforce MFA & SSO integration for all user/admin access.	100% user coverage; no fallback logins; successful test cases.	Identity audits, access logs	High	SSO provider, identity platform	03/25–03/31/2025(3.5)
+AGW-105	Deliver technical documentation for engineers, admins, and auditors.	Documentation versioned, peer-reviewed, and approved.	Document walkthrough, SME sign-off	Medium	Documentation team, SMEs	05/20–05/26/2025(5.2)
+AGW-106	Produce and archive stakeholder reports on performance and project progress.	Monthly reports delivered on time; centralized archive accessible.	Report audit, stakeholder sign-off	Medium	BI tools, project leads	05/20–05/26/2025(5.2)
+AGW-107	Implement Zero Trust Architecture across systems and endpoints.	100% systems protected with policy; no implicit access granted.	Security audit, penetration testing	High	Security policies, identity config	03/25–03/31/2025(3.5)
+ 
+ 
+ 
+ 
+APP Deliverables
+Summary
+Deliverable	Value Added
+AI Deployment	Intelligent automation and smart ticket handling
+Automation	Reduced workload, faster support
+Dashboard	Real-time visibility and KPIs
+MFA/SSO	Identity protection and seamless access
+Docs	Knowledge continuity and audit readiness
+Reports	Transparency and stakeholder trust
+Zero Trust	Strong perimeter-less security, regulatory alignment
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+See Figures 1.1 – 1.5 in Appendix C
+ 
+AI Assistant Deployment
+Element	Description
+Objective	Deploy Gemini AI to support IT operations across Google Workspace
+. AI Assistant Deployment
+•	Integration of Gemini AI directly into Google Workspace
+•	Configured to handle IT support queries and internal automation tasks
+•	API-based deployment via Google Cloud’s API Play Console
+•	Seamless communication with external systems like Fresh service and Flex Point
+•	Load-tested and monitored for usage and response efficiency
+ 
+ 
+ 
+ 
+Automation & Optimization Features
+ 
+Element	Description
+Objective	Reduce manual workload and improve incident response with automation
+•	Automation of routine IT tasks (e.g., password resets, onboarding/offboarding)
+•	Smart ticket classification and routing powered by AI logic
+•	Real-time optimization of workflows via machine learning triggers
+•	Integration of task scheduling, escalation rules, and AI feedback learning loops
+•	Reduction in manual workload across helpdesk and IT admin
+ 	 
+ 
+ 
+ 
+Performance Analytics Dashboard
+Element	Description
+Objective	Enable real-time insight into IT operations, AI usage, and service health
+•	Custom-designed dashboard displaying real-time metrics and KPIs
+•	Tracks AI ticket resolution rates, mean response time, and workflow automation volume
+•	Visual reports for IT managers and stakeholders
+•	Configurable notifications and alerts for key metrics (e.g., SLA breaches, queue spikes)
+•	Integrated with Google Operations Suite and Workspace Analytics
+ 	 
+ 
+ 
+ 
+ 
+MFA & SSO Integration
+Element	Description
+Objective	Enforce secure, centralized access using modern identity protocols
+Multi-Factor Authentication (MFA)
+•	Enforced across Workspace, Fresh service, flex Point, and admin portals
+•	Methods used: 
+o	Google Authenticator or Authy
+o	YubiKey for elevated access
+o	Backup SMS/email for fallback
+•	MFA policies documented and monitored via Google Admin Console
+Single Sign-On (SSO)
+•	Google Workspace SSO as identity provider
+•	SAML/OAuth integration with Fresh service, flex Point, Slack, and LastPass
+•	Benefits: 
+o	Unified user management
+o	Streamlined onboarding/offboarding
+o	Enhanced security via centralized audit logging 	 
+ 
+ 
+ 
+ 
+ 
+Zero Trust Architecture
+Element	Description
+Objective	Secure all systems using Zero Trust principles: no implicit trust
+1.	Microsegment internal systems via Google IAM roles and project boundaries
+2.	Enable Google Context-Aware Access to restrict access based on device/location
+3.	Apply MFA and SSO across all users and systems
+4.	Set strict least-privilege access using granular roles
+5.	Rotate API keys and enforce expiration on access tokens
+6.	Monitor all access attempts via Google Chronicle and Workspace Admin Logs
+7.	Conduct regular security audits and Zero Trust policy reviews
+8.	Simulate access breach scenarios to test response mechanisms
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Topology
+ 
+ 
+ 
+This topology represents a hybrid IT environment with strong security controls, centralized identity management, and seamless integration between on-premises infrastructure and Google Cloud services. (we’ve used SKYLINE, in place of the customer company as an example.)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This GCP-based architecture enables secure, scalable API delivery by routing client requests through API Gateway to various backend services.
+ 
+Core Components
+•	API Clients
+Web/mobile apps or third-party systems sending API requests.
+•	API Gateway
+Central entry point for requests. Handles routing, validation, authentication, and monitoring. Connects with:
+o	Service Control: Quotas, logging, and authentication
+o	Service Management: API configuration and deployment
+•	Backend Services
+o	Cloud Functions – Event-based serverless logic
+o	Cloud Run – Containerized microservices
+o	App Engine – Managed app hosting
+•	Cloud SDK
+Command-line interface for developers to deploy and manage APIs.
+•	Cloud Console
+Graphical interface for monitoring resources and managing access.
+ 
+Data Flow
+1.	Clients send requests to API Gateway.
+2.	The gateway applies security and traffic policies and routes requests to the appropriate backend.
+3.	Backend services process the requests and return responses via the gateway.
+4.	API usage and errors are logged and monitored through Service Control and Cloud Console.
+ 
+Key Benefits
+•	Centralized API management
+•	Built-in security, quota enforcement, and monitoring
+•	Supports multiple GCP backend compute services
+•	Simplified deployment and control via GCP tools
+ 
+Rationale for Architecture Selection
+This architecture was selected for its ease of onboarding with minimal need for advanced technical training, making it ideal for fast implementation across diverse teams. As an on-demand, serverless model, it effectively handles redundancy and reduces latency. Additionally, it offers scalable and partitioned services, ensuring flexibility as organizational needs grow.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Athenol API Topology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The AI App Integration for Google Workspace project leverages a cloud-based architecture designed to enhance IT operations, customer support, and security through AI-powered automation and analytics. Key components include:
+1.	API Clients & Gateway: Secure client interaction with backend services, managing traffic and enforcing security measures.
+2.	Gemini AI: Deployed in the API console to automate IT support tasks, enhance decision-making, and optimize workflows.
+3.	AI Analytics: Analyzes data to provide insights for system optimization, performance improvement, and early issue detection.
+4.	MEA Security: Multi-Factor Authentication (MFA), AES-256 encryption, and access control ensure data protection and regulatory compliance.
+5.	Cloud Storage: Secure, scalable storage for data and system logs, ensuring reliability and redundancy.
+6.	Single Sign-On (SSO): Simplifies secure user authentication across platforms.
+7.	Cybersecurity Integration: Enhances threat detection and monitoring through AI and third-party cybersecurity platforms.
+8.	IT Support Automation: Automates ticketing, incident management, and routine troubleshooting to reduce manual workloads and improve response times.
+ 
+ 
+ 
+ 
+ 
+ 
+See Figure 2.1 – 2.3 in Appendix C.2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Risk assessments
+ 
+Risks and Mitigation Strategies
+Risk	Impact	Mitigation Strategy
+Integration Challenges	Delays in deployment	Engage Google Workspace consultants early in the project.
+Budget Overruns	Increased costs	Allocate a 10-15% contingency fund.
+User Resistance to Change	Low adoption rates	Invest in training and change management.
+Security Vulnerabilities	Data breaches	Conduct penetration testing and regular audits.
+ 
+ 
+ 
+The integration of an AI-driven cloud-based service desk with Google Workspace is a strategic initiative for Athenol Inc. It will enhance IT support efficiency, reduce operational costs, and improve user satisfaction. With proper planning, risk management, and execution, this project will deliver significant value to the organization.
+Feasibility Assessment 
+Technical Feasibility
+An infrastructure assessment confirmed that Skyline IT has the tools, systems, and expertise needed to carry out this project. Our team has experience working with APIs, cloud services, and automation platforms, and all required technologies (Google Workspace, Gemini API, cloud storage) are readily accessible.
+Conclusion: Skyline IT is technically prepared to move forward.
+ 
+Economic Feasibility
+We’ve reviewed the initial budget and confirmed that funding is available for licensing, infrastructure, and development. While the budget is limited, the project scope has been designed to stay within financial constraints. Ongoing support costs have also been considered in long-term planning.
+Conclusion: The project is affordable given its current scope and resource plan.
+ 
+Legal & Compliance Feasibility
+With involvement from our Chief Risk and Compliance Officer, we’ve identified key regulations (like HIPAA and cloud security standards) and built compliance into every phase of the project. Risk mitigation plans are in place for data privacy and secure API usage.
+Conclusion: Legal and regulatory requirements have been addressed.
+ 
+Operational Feasibility
+The system will directly benefit Skyline IT’s internal support teams and end users. We’ve developed a clear training strategy to prepare staff for the new tools and processes. In addition, ongoing monitoring will ensure a smooth transition and long-term usability.
+Conclusion: The organization has the capacity to adopt and maintain the new system.
+ 
+Schedule Feasibility
+The project is scheduled to run from January 31 to May 30, 2025. Based on a task breakdown and dependency planning, this timeline is reasonable. Our team will follow an agile approach, allowing for flexibility as the project progresses.
+Conclusion: The timeline is achievable based on current planning.
+ 
+Final Summary
+After reviewing technical readiness, financial support, legal considerations, and project scheduling, this initiative appears feasible across all key areas. Skyline IT has a solid foundation to launch the project with confidence.
+ 
+ 
+ 
+Compliance Summary 
+This document summarizes the compliance measures taken during the development of a custom API for a client organization. While best practices were followed throughout the project, the client retains full responsibility for regulatory compliance, security enforcement, and risk management post-deployment.
+Cloud Platform and Security
+Development was conducted on Google Cloud Platform (GCP) due to its strong security and compliance features, including encryption, IAM, and audit logging. The project followed a zero-trust architecture, and multi-factor authentication (MFA) was enforced for all team members to protect the development environment.
+Regulatory Considerations
+The API was built with GDPR and other data protection principles in mind (e.g., data minimization, secure transfer). However, the client is responsible for configuring and operating the API in a compliant manner and for meeting all legal and industry-specific obligations.
+Project Challenges
+Minor delays occurred due to early vendor issues, but the decision to retain the original provider helped maintain system consistency. Compatibility testing during implementation revealed no major integration issues.
+Ongoing Responsibility
+all documentation and implementation guidance will be provided. However, the client is solely responsible for:
+•	Hosting and production configuration
+•	Data handling and privacy enforcement
+•	Compliance audits and security monitoring
+Conclusion
+This API was developed with a strong focus on security and compliance readiness. However, ongoing risk management, legal compliance, and operational oversight remain with the client organization.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Technical documentation
+This report serves as a technical reference for future developers, system architects, and internal stakeholders requiring insight into the original configuration of this custom API solution.
+It outlines core implementation procedures, integration steps for third-party services with performance-optimized features, and establishes best practices for securing the CRM environment through a robust architectural framework.
+AI Assistant Deployment
+Element	Description
+Objective	Deploy Gemini AI to support IT operations across Google Workspace
+Implementation Steps	
+1.     Create a Google Cloud project and set permissions (IAM roles)
+2.     Enable Gemini API via Google Cloud API Console
+3.     Authenticate using service accounts or OAuth2 credentials
+4.     Connect Gemini AI to Google Workspace services (Docs, Chat, Drive)
+5.     Set up integration with Fresh service ticketing system using RESTful APIs
+6.     Conduct unit testing for response handling and routing
+7.     Enable logging and monitor usage via Google Cloud Monitoring
+ 
+Automation & Optimization Features
+Element	Description
+Objective	Reduce manual workload and improve incident response with automation
+Implementation Steps	
+1.	Analyze current IT helpdesk workflows and identify automatable processes
+2.	Design Gemini-based automation logic (e.g., classify tickets, auto-reply)
+3.	Develop scripts using Google Apps Script or Cloud Functions
+4.	Integrate automation logic into Fresh service using webhooks
+5.	Create custom rules for escalation, reassignment, and notification
+6.	Perform workflow testing and validation with QA
+7.	Track automation success rates and adjust logic as needed
+ 
+Performance Analytics Dashboard
+Element	Description
+Objective	Enable real-time insight into IT operations, AI usage, and service health
+Implementation Steps	
+1.	Define dashboard KPIs: ticket resolution time, automation volume, system uptime
+2.	Set up a dashboard using Google Looker Studio or Google Data Studio
+3.	Connect data sources: Fresh service API, Workspace activity logs, Gemini logs
+4.	Create visual widgets and charts for each performance metric
+5.	Implement email alerts or Slack notifications for key thresholds
+6.	Share dashboards with IT team and leadership via secure link
+7.	Schedule automated reports weekly or monthly
+ 
+MFA & SSO Integration
+Element	Description
+Objective	Enforce secure, centralized access using modern identity protocols
+Implementation Steps	
+1.	Configure Google Workspace as the identity provider
+2.	Enable Single Sign-On (SSO) using SAML for Fresh service, flex Point, Slack, and LastPass
+3.	Enforce MFA via Google Authenticator, Authy, and YubiKey
+4.	Set conditional access policies (device type, location, login time) using Context-Aware Access
+5.	Test login flows for user groups and admin accounts
+6.	Provide a training guide and FAQ on new login procedures
+7.	Track and enforce MFA adoption via Workspace Admin Console
+1.	Zero Trust Architecture
+Element	Description
+Objective	Secure all systems using Zero Trust principles: no implicit trust
+Implementation Steps	
+9.	Microsegment internal systems via Google IAM roles and project boundaries
+10.	Enable Google Context-Aware Access to restrict access based on device/location
+11.	Apply MFA and SSO across all users and systems
+12.	Set strict least-privilege access using granular roles
+13.	Rotate API keys and enforce expiration on access tokens
+14.	Monitor all access attempts via Google Chronicle and Workspace Admin Logs
+15.	Conduct regular security audits and Zero Trust policy reviews
+16.	Simulate access breach scenarios to test response mechanisms
+ 
+ 
+ 
+ 
+ 
+Set up 2-Step Verification inside of your workspace
+Deploy 2-Step Verification
+Next: How 2-Step Verification works with legacy apps
+You and your users play important roles in setting up 2-Step Verification (2SV). Your users can choose their 2SV method, or you can enforce a method for certain users or groups in your organization. For example, you can require a small team in Sales to use security keys.
+Step 1: Notify users of 2-Step Verification deployment
+Before deploying 2SV, communicate your company’s plans to your users, including the following:
+•	What 2SV is and why your company is using it.
+•	Whether 2SV is optional or required.
+•	If required, the date by which users must turn on 2SV.
+•	Which 2SV method is required or recommended?
+Step 2: Allow users to turn on 2-Step Verification
+User accounts created before December 2016 have 2SV on by default.
+Let users turn on 2SV and use any verification method.
+Watch the video
+To allow users to turn on 2SV
+Before you begin: If needed, learn how to apply the setting to a department or group.
+You must be signed in as a super administrator for this task.
+1.	Sign in with a super administrator account to the Google Admin console.
+If you aren’t using a super administrator account, you can’t complete these steps.
+1.	Go to Menu Security > Authentication > 2-step verification.
+2.	(Optional) To apply the setting only to some users, on the side, select an organizational unit (often used for departments) or configuration group (advanced). Show me how
+Group settings override organizational units. Learn more
+1.	Check the Allow users to turn on 2-Step Verification
+2.	Select Enforcement Off.
+3.	Click, or you might click Override for an organizational unit.
+To later restore the inherited value, click Inherit (or Unset for a group).
+Step 3: Tell your users to enroll in 2-Step Verification
+1.	Tell your users to enroll in 2SV by following the instructions in Turn on 2-Step Verification.
+2.	Provide instructions for enrolling in 2SV methods: 
+o	Security keys
+o	Google prompt, text message, or phone call
+o	Google Authenticator app
+o	Backup codes
+Step 4: Track users' enrollment
+Use reports to measure and track your users' enrollment in 2SV. Check users' enrollment status, enforcement status, and number of security keys.
+Track 2SV enrollment
+1.	Sign in with an administrator account to the Google Admin console.
+If you aren’t using an administrator account, you can’t access the admin console.
+1.	Go to Menu Reporting > User Reports > Security.
+Requires having the Reports administrator privilege.
+1.	(Optional) To add a new column of information, click Settings, Add new column. Select the column to add to the table and click Save.
+For more information, go to Manage a user's security settings.
+View enrollment trends
+1.	Sign in with an administrator account to the Google Admin console.
+If you aren’t using an administrator account, you can’t access the admin console.
+1.	From the Admin console Home page, go to RepRap’s Reports Accounts.
+Identify organizational units and groups that aren't using 2-Step Verification
+1.	Sign in with an administrator account to the Google Admin console.
+If you aren’t using an administrator account, you can’t access the admin console.
+1.	Go to Menu Security > Security center > Security health.
+Requires having the Security Center administrator privilege, plus read access to users and organizational units.
+1.	Search Security Health for Two-step verification for admins or Two-step verification for users to review 2SV information.
+Step 5: Enforce 2-Step Verification (Optional)
+Before you begin: Make sure users are enrolled in 2SV.
+Important: When 2SV is enforced, users who have not completed the 2SV enrollment process, but have added 2-Factor Authentication (2FA) information to their account, such as a security key or phone number, will be able to sign in using this information. If you see a sign in from an unenrolled user who belongs to an organizational unit where 2SV has been enforced, that is a 2SV sign-in. For details, go to Half-enrolled 2SV state.
+Before you begin: If needed, learn how to apply the setting to a department or group.
+You must be signed in as a super administrator for this task.
+1.	Sign in with a super administrator account to the Google Admin console.
+If you aren’t using a super administrator account, you can’t complete these steps.
+1.	Go to Menu Security > Authentication > 2-step verification.
+2.	(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced). Show me how
+Group settings override organizational units. Learn more
+1.	Click Allow users to turn on 2-Step Verification.
+2.	For Enforcement, choose an option: 
+o	On—Starts immediately.
+o	Turn on enforcement from date—Select the start date. Users see reminders to enroll in 2SV when they sign in. Users might also receive email from Google reminding them to enroll in 2SV.Note: When using the on from date option, enforcement will start within 24-48 hours of the chosen date. If you want a precise enforcement start time, use the On
+3.	(Optional) To give new employees time to enroll before enforcement applies to their accounts, for the new user enrollment period, select a time frame from 1 day to 6 months. During this period, users can sign in with just their passwords.
+4.	(Optional) To let users avoid repeated 2SV checks on trusted devices, under Frequency, check the Allow user to trust the device The first time a user signs in from a new device, they can check a box to trust their device. Then the user isn't prompted for 2SV on the device unless the user clears their cookies or revokes the device or you reset the user's sign-in cookie. Avoiding 2SV on trusted devices isn't recommended unless your users frequently move between devices.
+5.	For Methods, select the enforcement method: 
+o	Any—Users can set up any 2SV method.
+o	Any except verification codes via text, phone call—Users can set up any 2SV method except using their phones to receive 2SV verification codes. Important: Users who use texts and phone calls to verify will be locked out of their accounts. To avoid locking out these users from their accounts: 
+	Before enforcement, tell users to start using another 2SV method since 2SV codes won't be available on their phones after the enforcement date.
+	You can use the login verification Login Audit activity event to track users who use codes from a text message or voice call. If the login_challenge_method parameter has the value idv_preregistered_phone, the user authenticates with a text or voice verification code.
+o	Only security key—Users must set up a security key. Before selecting this enforcement method, find users who have already set up security keys (report data could be delayed up to 48 hours). To view real-time 2SV status for each user, go to Manage a user’s security settings. Important: Since the addition of passkeys, the Only security key option now supports both security keys and passkeys as a 2SV method. Passkeys and security keys both have the same level of phishing protection. For details, go to Sign in with a passkey instead of a password.
+6.	If you select Only security key, set the 2-Step Verification policy suspension grace period. This period lets users sign in with a backup verification code that you generate for the user, which is useful when a user loses their security key. Select the length of this grace period, which starts when you generate the verification code. For information on backup codes, go to Get backup verification codes for a user. Important: If 2SV is enforced in Only security key mode, users cannot generate their backup verification codes. An admin must provide these codes to the user.
+7.	For Security codes, choose whether users can sign in with a security code. 
+o	Don't allow users to generate security codes—Users can’t generate security codes.
+o	Allow security codes without remote access—Users can generate security codes via co/sc and use them on the same device or local network (NAT or LAN).
+o	Allow security codes with remote access—Users can generate security codes via co/sc and use them on other devices or networks, such as when accessing a remote server or a virtual machine. Security codes are different from one-time codes that apps like Google Authenticator generate. To generate a security code, a user taps the security key on their device to generate a security code. The security codes are valid for 5 minutes.
+8.	Click, or you might click Override for an organizational unit.
+To later restore the inherited value, click Inherit (or Unset for a group).
+If users don't comply with the enforcement date
+You can give users extra time to enroll by adding them to a group where 2SV isn’t enforced. While this workaround allows users to sign in, it’s not recommended as a standard practice. Learn how to avoid account lockouts when 2-Step Verification is enforced.
+ 
+AI CONFIGURATION-
+ automated response 
+Google created Gemini, a generative artificial intelligence chatbot that was once known as Bard. It was introduced in 2023 in reaction to the popularity of OpenAI’s ChatGPT and was based on the huge language model of the same name. Previously, the LaMDA and PaLM LLMs served as its foundation.
+How to enable Bard AI in Google Workspace accounts
+1.	Https://admin.google.com
+2.	Right side pane clicks Apps.
+3.	Click additional Google Services.
+4.	Enable the early access Apps.
+5.	Service status, next click on it, then select ON for everyone, then click Save.
+6.	Click settings for Early Access Apps, then you need to enable Core Data Access Permission, check the box (allow users at your organization to access Google Workspace and Customer Data using Early Access apps), then click SAVE.
+7.	Now, refresh the page, you should be able to access Bard AI.
+8.	Click Bard AI’s lower right button and accept the Terms of Service, then click I Agree.
+9.	Click continue
+10.	Now it is ready to use Bard AI for any question you like (Enter prompt here).
+Bard is now Google GEMINI (formerly Bard). Chat to start writing, planning, learning, and more with Google AI. Gemini is the only chatbot that works with the Google tools used every day.
+ 
+ 
+ 
+ 
+ 
+ 
+ Appendix 
+ 
+Appendix A: Gantt chart
+Gannt chart timeline 
+ 
+ 
+Appendix B: GCP key elements in design 
+GCP as an API solution
+Google Compute Engine (GCE)
+Google Compute Engine (GCE) allows you to run virtual machines (VMs) on Google's scalable infrastructure. You can choose from predefined or custom machine types, allowing flexibility in performance. With GCE, you can scale your VMs automatically based on demand and deploy them across multiple regions for low-latency access and redundancy. It provides the compute resources needed for AI model processing, API hosting, and other intensive backend tasks while offering full control over your VM environments.
+ 
+Google Cloud Storage (GCS)
+Google Cloud Storage is an object storage service designed for storing unstructured data at scale. Data is stored in buckets, which can be organized based on your project needs. GCS offers multiple storage classes (e.g., Standard, Coldline) to optimize costs based on data access frequency. It also automatically encrypts data at rest and in transit, ensuring strong data security. GCS is ideal for storing AI models, logs, backups, and other large datasets, while its seamless integration with other GCP services enhances your workflow.
+ 
+Google Cloud Key Management Service (KMS)
+Google Cloud KMS provides a secure way to manage cryptographic keys for your cloud applications. It allows you to create, store, and control access to keys used for encryption and decryption. With KMS, you can use Google-managed keys or set up customer-managed keys (CMKs) for more control. It supports both symmetric and asymmetric encryption, offering robust data protection. KMS also integrates with Google Cloud IAM, allowing you to define permissions and manage key access securely, making it essential for compliance with data protection regulations.
+ 
+These services work together by providing scalable compute resources (GCE), secure data storage (GCS), and encryption management (KMS), ensuring that your AI integration project is efficient, secure, and compliant.
+ 
+Appendix C: In-app screenshot
+Figure 1.1
+ 
+ 
+ 
+Figure 1.2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1.3
+ 
+Figure 1.4
+ 
+ 
+ 
+ 
+  
+Figure 1.5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                                                      
+Figure 2.1
+ 
+ 
+ 
+Figure 2
+Figure 2.2 
+ 
+Figure 2.3
+ 
+ 
+ 
+ 
+Appendix D: references 
+ 
+•	Google Cloud. (n.d.). Security and compliance. https://cloud.google.com/security/compliance
+•	GDPR.eu. (n.d.). General Data Protection Regulation. https://gdpr.eu/
+•	NIST. (2020). Zero Trust Architecture (SP 800-207). https://csrc.nist.gov/publications/detail/sp/800-207/final
+ISO. (n.d.). ISO/IEC 27001 Overview. https://www.iso.org/isoiec-27001-information-security.html • Google Cloud. (n.d.). Google Cloud Pricing Calculator. Google Cloud. Retrieved May 5, 2025, from https://cloud.google.com/products/calculator
+• Google Cloud. (n.d.). Cloud Pricing. Google Cloud. from https://cloud.google.com/pricing
+• Google Cloud. (2023, October 16). Introducing Google Cloud financial management best practices. Google Cloud Blog. Retrieved May 5, 2025, from https://cloud.google.com/blog/topics/inside-google-cloud/introducing-google-cloud-financial-management-best-practices
+• Google Cloud. (n.d.). Google Cloud Cost Management. Google Cloud. from https://cloud.google.com/products/cost-management
+• Hughes, P. (2020, January 7). 10 tips for budgeting your AI projects. Forbes. from https://www.forbes.com/sites/forbestechcouncil/2020/01/07/10-tips-for-budgeting-your-ai-projects/
+• Markoff, J. (2020, January 7). How to manage cloud costs and optimization. CIO. from https://www.cio.com/article/358058/it-budget-how-to-manage-cloud-costs-optimization.html
+• Google Cloud. (n.d.). Google Compute Engine documentation. https://cloud.google.com/compute/docs
+• Google Cloud. (n.d.). Google Compute Engine Quickstart guide. https://cloud.google.com/compute/docs/quickstart
+• Google Cloud. (n.d.). Google Cloud Storage documentation. https://cloud.google.com/storage/docs
+• Google Cloud. (n.d.). Best practices for Google Cloud Storage (GCS). https://cloud.google.com/storage/docs/best-practices
+• Google Cloud. (n.d.). Key Management Service (KMS) documentation. https://cloud.google.com/kms/docs
+• Google Cloud. (n.d.). Key Management Service (KMS) best practices. https://cloud.google.com/kms/docs/best-practices
+ITS Asap. (n.d.). Server cost. https://www.itsasap.com/blog/server-cost?utm_source=chatgpt.com
+ 
+ 
+Appendix E: Glossary of Terms
+1.	API (Application Programming Interface)
+A set of protocols and tools that allow different software applications to communicate with each other.
+2.	API Gateway
+A server that acts as an entry point for all API requests, managing and routing traffic between clients and backend services.
+3.	AI (Artificial Intelligence)
+The simulation of human intelligence processes by machines, especially computer systems, to automate tasks and analyze data.
+4.	Gemini AI
+An AI-powered assistant used for automating IT support tasks, optimizing workflows, and enhancing decision-making within the project.
+5.	Automation
+The use of technology to perform tasks without human intervention, such as automating IT support requests and incident management.
+6.	AI Analytics
+The use of AI techniques to analyze data, providing insights and recommendations to optimize IT operations, detect issues, and improve performance.
+7.	MEA Security (Multi-factor Authentication, Encryption, and Access Control)
+A security framework that ensures data protection through multi-layered authentication, encryption, and controlled access to sensitive information.
+8.	AES-256 Encryption
+A symmetric encryption algorithm that secures data by converting it into a format that is unreadable without the proper decryption key.
+9.	SSO (Single Sign-On)
+An authentication method that allows users to access multiple applications with a single set of credentials, simplifying login processes and improving security.
+10.	SaaS (Software as a Service)
+A cloud-based service where applications are hosted by a service provider and made available to users over the internet, such as Google Workspace.
+11.	Cloud Storage
+A service that allows data to be stored online, making it accessible from any device and ensuring that it is safe and scalable.
+12.	Incident Management
+The process of identifying, analyzing, and resolving IT incidents (e.g., system outages or support tickets) to minimize disruption to services.
+13.	Compliance
+Adhering to regulatory requirements and industry standards to protect sensitive data and ensure operational transparency and security.
+14.	Cybersecurity
+The practice of protecting systems, networks, and data from digital attacks, including unauthorized access, cyber threats, and data breaches.
+15.	Ticketing System
+A system used to track, manage, and resolve IT issues and support requests, typically used by customer service and IT teams.
+16.	Regulatory Compliance
+Ensuring that the project and systems meet the legal, security, and industry standards that govern data protection and privacy.
