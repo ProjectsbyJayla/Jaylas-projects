@@ -1,3 +1,2 @@
-Welcome to your hands-on cloud journey! In this course, you'll learn how to build and deploy a real static website using Amazon Web Services (AWS). Whether you're a beginner or exploring cloud tools for the first time, this course is designed to guide you step-by-step.
-
-This lesson introduces students to foundational cloud computing concepts using Amazon Web Services (AWS) and GitHub. Through a project-based approach, students will build and deploy their own static resume website using S3 and Route 53, and host their project source files in a public GitHub repository. By the end of this lesson, students will have a tangible cloud-based portfolio piece that demonstrates real-world IT and DevOps skills.
+# Welcome, This is where you can find all my Projects!
+# Thank you for visiting,
