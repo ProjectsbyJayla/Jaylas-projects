@@ -1,42 +1,101 @@
-/* ===== CARD LAYOUT SYSTEM ===== */
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #FBC8EB; /* baby pink background */
+    color: #222;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(135deg, #FBC8EB, #F898DA);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* ===== SECTION TITLES ===== */
+h2 {
+    color: #FF69B4;
+    margin-bottom: 15px;
+}
+
+/* ===== CARD SYSTEM ===== */
 .card {
     background: #ffffff;
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #f3c6e6;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Card headings */
 .card h3 {
     margin-top: 0;
     color: #FF69B4;
 }
 
-/* Better spacing for lists inside cards */
-.card ul {
-    margin-top: 10px;
+/* ===== TEXT ===== */
+p, li {
+    line-height: 1.6;
+    color: #444;
 }
 
-.card li {
-    margin-bottom: 6px;
+/* ===== LISTS ===== */
+ul {
+    padding-left: 20px;
+    list-style-type: square;
 }
 
-/* Section spacing consistency */
-section {
-    margin-bottom: 50px;
-}
-
-/* Optional: cleaner headings */
-h2 {
+/* ===== LINKS ===== */
+a {
     color: #FF69B4;
-    margin-bottom: 15px;
+}
+
+a:hover {
+    color: #F898DA;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+footer a {
+    font-size: 28px;
+    margin: 0 10px;
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F898DA;
 }
