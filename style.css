@@ -1,112 +1,42 @@
+/* ===== CARD LAYOUT SYSTEM ===== */
 
-/* General body styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FBC8EB; /* baby pink */
-    color: #888; /* light grey text */
-    margin: 0;
-    padding: 0;
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f3c6e6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Resume container */
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: #ffffff; /* white background for the resume */
-    padding: 40px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
 }
 
-/* Header section */
-header {
-    text-align: center;
-    border-bottom: 2px solid #F898DA; /* light pink border */
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-
-
+/* Card headings */
+.card h3 {
+    margin-top: 0;
+    color: #FF69B4;
 }
 
-h1 {
-    margin: 0;
-    font-size: 36px;
-    color: #333333; /* darker grey */
-}
-
-.title {
-    font-size: 20px;
-    color: #F898DA; /* light pink */
-}
-
-/* Headings */
-h2 {
-    color: #FF69B4; /* hot pink for section headers */
-    border-bottom: 1px solid #F898DA; /* light pink border */
-    padding-bottom: 5px;
-}
-
-/* Links */
-a {
-    color: #FF69B4; /* hot pink for links */
-    text-decoration: none;
-}
-
-/* Lists and spacing */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-p, li {
-    line-height: 1.6;
-}
-
-/* Social icons */
-.social-links {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.social-links a {
-    font-size: 36px; /* larger icons */
-    margin: 0 20px;
-    color: #FF69B4; /* hot pink color for icons */
-}
-
-.social-links a:hover {
-    color: #F898DA; /* light pink on hover */
-}
-
-/* Project section tweak */
-section:last-of-type {
-    background-color: transparent; /* Remove background color for achievements */
-    padding: 15px;
-    border-radius: 6px;
-    margin-top: 20px;
-}
-
-/* Footer section */
-footer {
-    text-align: center;
-    margin-top: 30px;
-}
-
-footer p {
-    font-size: 16px;
-    color: #888; /* light grey */
-}
-
-/* Achievement box */
-section:last-of-type ul {
-    background-color: transparent; /* No background for achievements */
-    padding: 10px;
-    border-radius: 8px;
+/* Better spacing for lists inside cards */
+.card ul {
     margin-top: 10px;
 }
 
-/* Other sections styling */
-section {
-    margin-bottom: 30px;
+.card li {
+    margin-bottom: 6px;
 }
 
+/* Section spacing consistency */
+section {
+    margin-bottom: 50px;
+}
+
+/* Optional: cleaner headings */
+h2 {
+    color: #FF69B4;
+    margin-bottom: 15px;
+}
