@@ -7,7 +7,7 @@
 /* BODY */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #FBC8EB, #ffffff);
+    background: linear-gradient(to bottom, #f6e1ea, #ffffff);
     color: #222;
 }
 
@@ -15,8 +15,8 @@ body {
 header {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #FBC8EB, #F898DA);
-    color: white;
+    background: linear-gradient(135deg, #f6e1ea, #e7b6c8);
+    color: #2a2a2a;
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header p {
 }
 
 header a {
-    color: white;
+    color: #2a2a2a;
     text-decoration: none;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ section {
 }
 
 h2 {
-    color: #FF69B4;
+    color: #b05c7a;
     margin-bottom: 20px;
 }
 
@@ -60,21 +60,16 @@ h2 {
 
 /* CARDS */
 .card {
-    background: white;
+    background: #ffffff;
     padding: 20px;
     border-radius: 12px;
-    border: 1px solid #f3c6e6;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border: 1px solid #ead1db;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
     transition: 0.2s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-}
-
-.card h3 {
-    color: #FF69B4;
-    margin-bottom: 10px;
+    transform: translateY(-4px);
 }
 
 /* TEXT */
